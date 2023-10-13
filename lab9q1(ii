@@ -1,0 +1,9 @@
+l1= list(map(int,input().split()))
+l2 =[]
+s1=set()
+for j in l1:
+   if j not in s1:
+      s1.add(j)
+      l2.append(j)
+print(l2)
+print(s1)
